@@ -11,8 +11,6 @@ import android.provider.Settings
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.preference.Preference
-
 
 class MainActivity : AppCompatActivity() {
     lateinit var preEdit: SharedPreferences.Editor
@@ -109,3 +107,4 @@ class MainActivity : AppCompatActivity() {
         preEdit.commit()
     }
 }
+
